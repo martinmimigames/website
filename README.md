@@ -1,4 +1,4 @@
 # website
-The website framework of martinmimigames
+This is the website framework of martinmimigames
 
 please DO NOT COPY
