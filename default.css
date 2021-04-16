@@ -3,8 +3,8 @@
 }
 
 body {
-    background-color: rgb(32, 32, 32);
-    color: grey;
+    background-color: rgb(30, 30, 34);
+    color: white;
     text-align: left;
 }
 
@@ -15,6 +15,7 @@ a {
 
     /*remove original underline*/
     text-decoration: none;
+    color: white;
 }
 
 a:visited {
