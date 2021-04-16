@@ -1,0 +1,22 @@
+* {
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    color: grey;
+    text-align: left;
+}
+
+a {
+    /*border for fancy underline*/
+    border-style: hidden hidden solid hidden;
+    border-color: rgb(0, 67, 98);
+
+    /*remove original underline*/
+    text-decoration: none;
+}
+
+a:visited {
+    border-color: rgb(76, 0, 85);
+}
