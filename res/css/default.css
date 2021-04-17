@@ -1,12 +1,12 @@
 * {
     font-family: Helvetica, Verdana, Arial, sans-serif;
-    background-color: black;
-    color: white;
 }
 
 body {
     text-align: left;
     margin: 0px;
+    background-color: black;
+    color: white;
 }
 
 p {
