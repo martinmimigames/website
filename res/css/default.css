@@ -1,11 +1,12 @@
 * {
     font-family: Helvetica, Verdana, Arial, sans-serif;
+    letter-spacing: 0.02em;
 }
 
 body {
     text-align: left;
     margin: 0px;
-    background-color: black;
+    background-color: #121212;
     color: white;
 }
 
@@ -15,8 +16,6 @@ p {
 }
 
 a {
-    margin-left: 1em;
-    margin-right: 1em;
     /*border for fancy underline*/
     border-style: hidden hidden solid hidden;
     border-color: rgb(0, 67, 98);
