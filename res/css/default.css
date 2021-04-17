@@ -9,6 +9,12 @@ html, html[data-theme="light"], html[data-theme="dark"] {
       since the website is already dark.*/
 }
 
+@media (prefers-color-scheme: dark) {
+    /*wrote this to give support to both light theme and dark,
+      without changing the content of the website,
+      since the website is already dark.*/
+}
+
 body {
     text-align: left;
     margin: 0px;
