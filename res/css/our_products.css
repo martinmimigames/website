@@ -1,3 +1,12 @@
+p.centered {
+    text-align: center;
+}
+
+a {
+    border-style: hidden;
+}
+
+
 img.centered {
     vertical-align: middle;
 }
