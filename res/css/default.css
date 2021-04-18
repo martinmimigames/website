@@ -27,6 +27,10 @@ p {
     margin-right: 1em;
 }
 
+p.centered {
+    text-align: center;
+}
+
 a {
     /*border for fancy underline*/
     border-style: hidden hidden solid hidden;
