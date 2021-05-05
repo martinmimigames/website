@@ -27,12 +27,13 @@ header.name {
     padding-bottom: 1em;
     text-align: center;
     white-space: nowarp;
-    font-size: 2.5em;
+    font-size: 5em;
 }
 
 p {
     margin-left: 1em;
     margin-right: 1em;
+    font-size: 2em;
 }
 
 p.centered {
