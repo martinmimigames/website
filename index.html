@@ -5,11 +5,12 @@
     <script src="/res/javascript/default.js"></script>
     <script>
       if (isMobile()) {
-        document.getElementById("css").href = "/res/css_mobile/default.css";
+        changeCss("/res/css_mobile/default.css");
+        } else {
+        changeCss("/res/css/default.css");
         }
     </script>
     <link rel="shortcut icon" href="/res/icon/website/default.ico">
-    <link id="css" rel="stylesheet" href="/res/css/default.css">
     <link rel="stylesheet" href="/res/css/main_menu.css">
     <title>martinmimigames : main menu</title>
   </head>
