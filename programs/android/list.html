@@ -2,13 +2,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="/res/javascript/default.js"></script>
+    <script>
+      if (isMobile()) {
+        changeCss("/res/css_mobile/default.css");
+        } else {
+        changeCss("/res/css/default.css");
+        }
+    </script>
     <link rel="shortcut icon" href="/res/icon/website/default.ico">
-    <link rel="stylesheet" href="/res/css/default.css">
     <title>apk releases</title>
   </head>
 
   <body>
-    <header class="name" word-wrap = "break-word">apk releases of MGGames</header>
+    <header class="name">apk releases of MGGames</header>
     <p class="centered">~</p>
     <p class="centered"><a href = "https://android-car-4.github.io/his/android_car_3.html">
 	android car 3

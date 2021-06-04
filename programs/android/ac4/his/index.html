@@ -2,8 +2,15 @@
 <html>
   
   <head>
+    <script src="/res/javascript/default.js"></script>
+    <script>
+      if (isMobile()) {
+        changeCss("/res/css_mobile/default.css");
+        } else {
+        changeCss("/res/css/default.css");
+        }
+    </script>
     <link rel="shortcut icon" href="/res/icon/website/default.ico">
-    <link rel="stylesheet" href="/res/css/default.css">
     <link rel="stylesheet" href="/res/css/main_menu.css">
     <title>martinmimigames : main menu</title>
   </head>
@@ -12,7 +19,7 @@
 
     <header class="company_name">MGGames</header>
 
-    <p class="centered" word-wrap = "break-word">
+    <p class="centered" >
       This is the main menu of martinmimigames.
     </p>
 
