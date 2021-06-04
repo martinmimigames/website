@@ -28,6 +28,10 @@ p.centered {
     text-align: center;
 }
 
+img {
+    width: 90%;
+}
+
 a {
     /*border for fancy underline*/
     border-style: hidden hidden solid hidden;
