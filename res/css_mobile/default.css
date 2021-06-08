@@ -1,31 +1,9 @@
-* {
-    font-family: Helvetica, Verdana, Arial, sans-serif;
-    letter-spacing: 0.02em;
-}
-
-body {
-    text-align: left;
-    margin: 0px;
-    background-color: #121212;
-    color: white;
-}
-
 header.name {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    text-align: center;
-    white-space: nowarp;
     font-size: 6em;
 }
 
 p {
-    margin-left: 1em;
-    margin-right: 1em;
     font-size: 3em;
-}
-
-p.centered {
-    text-align: center;
 }
 
 img {
@@ -34,15 +12,5 @@ img {
 
 a {
     /*border for fancy underline*/
-    border-style: hidden hidden solid hidden;
-    border-color: rgb(0, 67, 98);
     border-width: thick;
-
-    /*remove original underline*/
-    text-decoration: none;
-    color: white;
-}
-
-a:visited {
-    border-color: rgb(76, 0, 85);
 }
