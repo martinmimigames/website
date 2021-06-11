@@ -41,6 +41,14 @@ a:visited {
     border-color: rgb(76, 0, 85);
 }
 
+a.img {
+    border-style: hidden;
+}
+
+img.centered {
+    vertical-align: middle;
+}
+
 img.avatar {
     vertical-align: middle;
     width: 5%;
