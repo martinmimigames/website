@@ -40,3 +40,9 @@ a {
 a:visited {
     border-color: rgb(76, 0, 85);
 }
+
+img.avatar {
+    vertical-align: middle;
+    width: 5%;
+    border-radius: 50%;
+}
